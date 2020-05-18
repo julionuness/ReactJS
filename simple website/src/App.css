@@ -1,0 +1,15 @@
+
+.home-grid
+{
+  width: '100%';
+  margin: 'auto';
+  text-align: center;
+  justify-content: center;
+  color: black; 
+  padding-top: 5em;
+}
+.home-grid h1
+{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 32px;
+}

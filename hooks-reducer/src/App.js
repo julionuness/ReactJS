@@ -44,7 +44,7 @@ THE state.tasks.map WOULD ALWAYS RENDERED WITH ITS PREVIOUS STATE */
       <button onClick={() => {
         setLogin({email: inpEmail.current.value, pass: inpPass.current.value});
       }}>Add a login</button>
-
+{/*key={i} WAS JUST NEEDED BECAUSE A WARNING ON console.log -> Each child in a list should have a unique "key" prop*/}
       {state.tasks.map((items, i) => (<p key={i}>{JSON.stringify(items)}</p>))}
 
     </div>

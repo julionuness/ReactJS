@@ -1,2 +1,2 @@
 # ReactJS
-Simple project using React JS
+Simples projeto usando React Js
